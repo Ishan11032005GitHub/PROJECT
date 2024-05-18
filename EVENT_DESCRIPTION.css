@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    z-index: -1;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(0, 0,0,0.1);
+}
+header{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 40px;
+}
+nav{
+    top: 0px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+}
+.navbar{
+    display: inline-block;
+    margin-right: 25px;
+    color: aliceblue;
+    font-size: 25px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    font-family: system-ui;
+    font-weight: 600;
+    text-align: right;
+}
+.navbar:hover{
+    color: aquamarine;
+}
+#textinnav{
+    text-align: right;
+    line-height: 50px;
+    display: inline-block;
+}
+#navLogo{
+    display: inline-block;
+    height: 40px;
+    width: 175px;
+    margin-right:  46.8164794vw;
+    z-index: 1;
+}
+#heading{
+    display: inline-block;
+    margin-top: 32vh;
+    font-weight: 900;
+    color: rgb(255,255,255);
+    font-size: 5em;
+    border-color: transparent;
+    background-color: rgba(0, 0,0,0.6);
+    border-radius: 10px;
+    padding-left:  25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#THEME{
+    margin-top: 15vh;
+    margin-left: 80vw;
+    cursor: pointer;
+}
+#eventDescription{
+margin-top: 15vh;
+margin-bottom: 10vh;
+font-size:4rem;
+}
+#DESCRIPTION{
+    text-align: justify;
+    height: 40vh;
+    width: 60vw;
+    overflow-y: scroll;
+}
+#REGISTER{
+    padding: 5px;
+    margin-top: 7.5vh;
+    margin-left: 45vw;
+    margin-bottom: 7.5vh;
+    cursor: pointer;
+}
+footer{
+    text-align: center;background-color: #443f3f4d;margin-top: 10vh;padding-bottom: 5vh;padding-top: 10vh;font-size: 2rem;bottom: 0;
+}

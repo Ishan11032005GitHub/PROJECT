@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    background-color: #322C2B;
+    height: 100%;
+    width: 100%;
+}
+body{
+    color: #AF8260;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header{
+    z-index: 5;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 40px;
+}
+nav{
+    top: 0px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+}
+.navbar{
+    display: inline-block;
+    margin-right: 25px;
+    color: aliceblue;
+    font-size: 25px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    font-family: system-ui;
+    font-weight: 600;
+    text-align: right;
+}
+.navbar:hover{
+    color: aquamarine;
+}
+#textinnav{
+    text-align: right;
+    line-height: 50px;
+    display: inline-block;
+}
+#navLogo{
+    display: inline-block;
+    height: 40px;
+    width: 175px;
+    margin-right:  46.8164794vw;
+    z-index: 1;
+}
+#back{
+    margin-left: 15px;
+    margin-top: 92px;
+    font-size: 2em;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: transparent;
+    color: #E4C59E;
+    padding: 2px 2px 2px 2px;
+    display: inline-block;
+    background-color: rgba(250,235,215,0.5);
+    transition: 2s;
+}
+#back:hover{
+    translate: 0px -2px;
+    box-shadow: 1px 1px 1px gold;
+}
+#OURTEAM{
+    margin-top: 100px;
+    font-size: 10em;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+#facultyCoordinator{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 7.5em;
+    font-weight: 600;
+}
+#SUDIPSIR{
+    height: 200%;
+}
+#TECHTEAM{
+    text-align: center;
+}
+.TEAMHEAD{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 7.5em;
+    font-weight: 600;
+}
+.HEAD{
+    text-decoration: none;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 400;
+}
+.MEMBERS{
+    text-decoration: none;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 400;
+}
+.name{
+    display: inline;
+    margin-left: 400px;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.festHeads{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;margin-bottom: 50vh;
+}
+.H{
+    font-weight: 900;
+}
+.heads{
+    width: 20vw;
+    height: 10vh;
+    margin-left: 7.5vw;
+    text-align: center;
+    font-weight: 600;
+}
+#BACK{
+    display: inline;border-radius: 10px; 
+    font-size: 2rem;margin-left: 1vw;
+    padding: 7.5px;cursor: pointer;
+    color: aliceblue;
+    background-color: rgba(255,255,255,0.1);
+    transition-duration: 2s;
+}
+#BACK:hover{
+    background-color: aliceblue;
+    color: rgba(0,0,0,1);
+}
+.H{
+    font-size: 8rem;display: inline;text-decoration: underline;
+}
+#SPONSORS{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 80vw;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;background-color: #443f3f4d;margin-top: 10vh;padding-bottom: 5vh;padding-top: 10vh;font-size: 2rem;bottom: 0;
+}

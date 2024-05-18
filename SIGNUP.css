@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: auto;
+    width: 100vw;
+    background-color: black;
+}
+body{
+    color: hsl(0, 0%, 100%);
+    z-index: -1;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 40px;
+}
+nav{
+    top: 0px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+}
+.navbar{
+    display: inline-block;
+    margin-right: 25px;
+    color: aliceblue;
+    font-size: 25px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    font-family: system-ui;
+    font-weight: 600;
+    text-align: right;
+}
+.navbar:hover{
+    color: aquamarine;
+}
+#textinnav{
+    text-align: right;
+    line-height: 50px;
+    display: inline-block;
+}
+#navLogo{
+    display: inline-block;
+    height: 40px;
+    width: 175px;
+    margin-right:  46.8164794vw;
+    z-index: 1;
+}
+#SIGN-UP{
+    font-weight: 700;
+}
+#SIGNUP{
+    display: inline-block;
+    margin-top: 17.5vh;
+    font-size: 3rem;
+    width: 40vw;
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+#DIV1{
+    text-align: left;
+    font-size: 2.5rem;
+    margin-top: 10vh;
+}
+input{
+    padding: 7px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+input::placeholder{
+    font-size: 1rem;
+}
+#DIV2{
+    font-size: 2rem;  
+}
+#SUBMIT{
+    font-size: 2.5rem;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    padding: 3px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+#SUBMIT:hover{
+    color: black;
+    background-color: #ffffff;
+}
+radio{
+    cursor: pointer;
+}
+footer{
+    text-align: center;background-color: #443f3f4d;margin-top: 10vh;padding-bottom: 5vh;padding-top: 10vh;font-size: 2rem;bottom: 0;
+}

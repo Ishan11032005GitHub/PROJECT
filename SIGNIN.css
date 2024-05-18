@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #043c36;
+}
+header{
+    /* position: fixed; */
+    top: 0px;
+    width: 100vw;
+    height: 40px;
+}
+nav{
+    top: 0px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+}
+.navbar{
+    display: inline-block;
+    margin-right: 25px;
+    color: aliceblue;
+    font-size: 25px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    font-family: system-ui;
+    font-weight: 600;
+    text-align: right;
+}
+.navbar:hover{
+    color: aquamarine;
+}
+#textinnav{
+    text-align: right;
+    line-height: 50px;
+    display: inline-block;
+}
+#navLogo{
+    display: inline-block;
+    height: 40px;
+    width: 175px;
+    margin-right:  46.8164794vw;
+    z-index: 1;
+}
+#SIGN-IN{
+    font-weight: 700;
+}
+.login{
+    /* color: aliceblue; */
+    color: aliceblue;
+    width: 50vw;
+    padding: 20px;
+    margin-top: 8vh;
+    margin-left: 25vw;
+    border-bottom: 5px solid #F72798;
+    border-left: 5px solid #F57D1F;
+    border-right: 5px solid #EBF400;
+    animation-name: borderRotation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+@keyframes borderRotation {
+    0%{
+        border-bottom: 5px solid #F72798;
+    border-left: 5px solid #F57D1F;
+    border-right: 5px solid #EBF400;
+    }
+
+    25%{
+        border-right: 5px solid #F72798;
+    border-bottom: 5px solid #F57D1F;
+    border-top: 5px solid #EBF400;
+    }
+    50%{
+        border-top: 5px solid #F72798;
+    border-right: 5px solid #F57D1F;
+    border-left: 5px solid #EBF400;
+    }
+    100%{
+        border-left: 5px solid #F72798;
+    border-top: 5px solid #F57D1F;
+    border-bottom: 5px solid #EBF400;
+    }
+}
+#DIV1{
+    font-size: 2.5em;
+    font-weight: 600;
+    display: inline-block;
+    width: 50vw;
+    display: inline;
+    text-align: center;
+    font-size: 2rem;
+}
+input{
+    width: 30vw;
+    height: 5vh;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid whitesmoke;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 3px;
+    font-size: 0.8em;
+    color: #f4d7b2;
+}
+input::placeholder{
+    font-size: 0.8em;
+}
+#DIV2{
+    display: inline;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.SUBMIT {
+    border: 1px solid white;
+    margin-left: 12.5vw;
+    border-radius: 10px;
+    padding: 15px;
+    background:
+      conic-gradient(from 135deg at top   ,#fff 90deg,#000 0)  ,
+      conic-gradient(from -45deg at bottom,#fff 90deg,#000 0)  ,
+      conic-gradient(from 135deg at top   ,#000 90deg,#0000 0),
+      conic-gradient(from -45deg at bottom,#000 90deg,#0000 0),
+      #000;
+    -webkit-background-clip: text,text,padding-box,padding-box,text;
+            background-clip: text,text,padding-box,padding-box,text;
+    background-size: 100% 50%;
+    background-position: 50% -100%,50% 200%;
+    background-repeat: repeat-x;
+    transition: 0.4s linear,background-position 0.3s 0.5s;
+    width: 20vw;
+  }
+  .SUBMIT:hover {
+    background-position: 50% 0,50% 100%;
+    background-size: 10% 50%;
+    transition: 0.3s,background-size 0.4s 0.3s linear;
+  }
+  footer{
+    text-align: center;background-color: #443f3f4d;margin-top: 10vh;padding-bottom: 5vh;padding-top: 10vh;font-size: 2rem;color: white;bottom: 0;
+}
